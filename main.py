@@ -1,8 +1,8 @@
 import random
 
-file_dates_questions_ru = open('dates_questions_ru.txt', 'r', encoding='utf-8')
+file_dates_questions_ru = open('data/dates_questions_ru.txt', 'r', encoding='utf-8')
 lines_dates_questions_ru = file_dates_questions_ru.readlines()
-file_dates_answers_ru = open('dates_answers_ru.txt', 'r', encoding='utf-8')
+file_dates_answers_ru = open('data/dates_answers_ru.txt', 'r', encoding='utf-8')
 lines_dates_answers_ru = file_dates_answers_ru.readlines()
 
 def main_menu():
